@@ -1,0 +1,25 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // display: none;
+
+    .loginForm{
+        display: flex;
+        flex-direction: column;
+
+        .loginInput{
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        .loginButton{
+            background-color: lawngreen;
+            border: none;
+            padding: 15px 5px;
+            cursor: pointer;
+        }
+    }
+}

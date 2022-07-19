@@ -1,0 +1,103 @@
+.addProduct{
+    flex: 4;
+
+    .addProductForm{
+        display: flex;
+        // flex-direction: column;
+        flex-wrap: wrap;
+        // display: none;
+
+        .addProductItem{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-right: 20px;
+
+            .multi-select{
+                height: 200px;
+            }
+
+            label{
+                margin-bottom: 10px;
+                color: rgb(195, 195, 195);
+                font-weight: 600;
+            } 
+
+            input{
+                height: 20px;
+                padding: 10px;
+                border: 1px solid gray;
+                border-radius: 5px;
+
+            }
+            
+            .fileInputImage{
+                // border: none;
+            }
+            .fileInputImage-n{
+                border: none;
+            }
+
+            .addProductGenderContainer{
+                // display: flex;
+                // align-items: center;
+
+                input{
+                    height: auto;
+                    margin-top: 15px;
+                }
+
+                label{
+                    margin:10px;
+                    font-size: 18px;
+                    color: gray;
+                }
+            }
+
+            .addProductSelect{
+                height: 40px;
+                border-radius: 5px;
+
+            }
+        }
+
+        .buttonCompartment{
+            // background-color: gray;
+            display: flex;
+            align-items: center;
+            // justify-content: center;
+        }
+
+        .addProductButton{
+            width: 80px;
+            height: 40px;
+            border: none;
+            background-color: darkblue;
+            color: rgb(255, 255, 255);
+            padding: 7px 10px;
+            font-weight: 600;
+            border-radius: 15px;
+            margin-top: 40px;
+            cursor: pointer;
+            // margin-left: 420px;
+
+            &.pending{
+                background-color: yellow;
+                color: black;
+                margin-left: 20px;
+                padding: 0px 0px;
+                width: 200px;
+                border-radius: 5px
+            }
+
+            &.success{
+                background-color: lawngreen;
+                color: black;
+                margin-left: 20px;
+                padding: 0px 0px;
+                width: 200px
+            }
+        }
+    }
+}

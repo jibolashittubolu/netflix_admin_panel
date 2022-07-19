@@ -1,0 +1,35 @@
+.productList{
+    flex: 4;
+    // background-color: greenyellow;
+
+    .productContainer{
+        display: flex;
+        align-items: center;
+
+        .productImage{
+            height: 35px;
+            width: 35px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+    }
+
+    .productActionsContainer{
+        display: flex;
+        align-items: center;
+        
+        .productActionsEdit{
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            background-color: greenyellow;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .productActionsDelete{
+            color: red;
+            cursor: pointer;
+        }
+    }
+}
