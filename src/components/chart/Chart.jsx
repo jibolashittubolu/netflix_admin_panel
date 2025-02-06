@@ -2,10 +2,9 @@ import React, { PureComponent } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 import './chart.scss'
-
 function Chart({data, title, dataKey, grid}) {  
   return (
-    <div className='chart'>
+    <div className='chart'  >
         <h3 className='chartTitle'>{title}</h3>
         <ResponsiveContainer width='100%' aspect={4 / 1}>
             <LineChart data={data}>
