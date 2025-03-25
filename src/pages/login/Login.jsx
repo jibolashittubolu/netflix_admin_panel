@@ -14,7 +14,6 @@ function Login() {
         const user = {email, password}
         loginApiCall(user, dispatch )
     }
-
   return (
     <div className='login'>
         <form className='loginForm'>
