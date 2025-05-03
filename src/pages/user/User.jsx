@@ -118,7 +118,8 @@ const User = () => {
                   <label>Address</label>
                   <input type='text' placeholder='New York | USA' className='userUpdateInput' />
                 </div>
-                
+
+               
               </div>
               <div className='userUpdateRight'>
                 <div className='userUpdateRightUpload'>
