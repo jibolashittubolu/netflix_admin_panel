@@ -40,7 +40,6 @@ export const createMovieSuccess = (movie) => ({
 export const createMovieFailure = () => ({
     type: "CREATE_MOVIE_FAILURE"
 });
-
 ////////////////////
 
 export const updateMovieStart = () => ({
