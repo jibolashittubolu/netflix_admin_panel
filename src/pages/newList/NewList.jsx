@@ -199,7 +199,6 @@ function NewList() {
         }
     }
     
-    console.log(list)
 
   return (
 <div className='addProduct'>
