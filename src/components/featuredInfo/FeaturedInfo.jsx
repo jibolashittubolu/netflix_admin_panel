@@ -2,6 +2,8 @@ import { ArrowDownward, ArrowUpward } from '@material-ui/icons'
 import React from 'react'
 import './featuredInfo.scss'
 
+
+
 const featuredInfoItems = [
     {
         featuredTitle:'Revenue',
