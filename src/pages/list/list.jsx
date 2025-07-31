@@ -5,7 +5,6 @@ import './list.scss'
 import {product_data}from '../../constants/data/dummyData'
 import avatar from '../../assets/images/avatar.jpg'
 import {PermIdentity} from '@material-ui/icons' 
- 
 
 function List() {
   const location = useLocation();
