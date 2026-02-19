@@ -3,7 +3,6 @@ import './App.scss';
 import Topbar from './components/topbar/Topbar';
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './pages/home/Home';
-
 import {Routes, Route, useNavigate} from "react-router-dom";
 import {BrowserRouter} from 'react-router-dom'
 import UserList from './pages/userList/UserList';
